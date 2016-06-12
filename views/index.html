@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nu Calculator</title>
+    <script type="text/javascript" src="vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <h1>Calculator Application</h1>
+    <!-- input1 field -->
+    <input type="text" name="input1" id="input1" value="" placeholder="">
+    <select id="type">
+      <option id="multiply" value="multiply">*</option>
+      <option id="divide" value="divide">/</option>
+      <option id="add" value="add">+</option>
+      <option id="subtract" value="subtract">-</option>
+    </select>
+    <input type="text" name="input2" id="input2" value="" placeholder="">
+    <button id="submitButton" type="button" name="button">Calculate</button>
+    <button id="clearButton" type="button" name="button">Clear</button>
+    <div id="outputDiv">
+    </div>
+  </body>
+</html>
