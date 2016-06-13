@@ -18,7 +18,7 @@ $(document).ready(function(){
 var resetExperience = function(){
   $('#input1').val('');
   $('#input2').val('');
-  document.getElementById('outputDiv').innerHTML='';
+  $('#outputDiv').empty();
 };
 
 // function to collect info and send to server
