@@ -13,7 +13,7 @@ var bodyParser=require('body-parser');
 var urlencodedParser=bodyParser.urlencoded({extended:false});
 
 // spin up the server
-var server=app.listen(process.env.PORT || 8000, 'localhost', function(req, res){
+var server=app.listen(process.env.PORT || 8000, function(req, res){
   console.log('server is listening on port 8000');
 });
 
