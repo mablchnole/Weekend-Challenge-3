@@ -11,22 +11,25 @@
     <div class="container">
       <h1>calculator application</h1>
       <div class="form-group">
-        <label for="input1">number 1</label>
+        <label for="input1">number 1:</label>
         <input type="text" name="input1" id="input1" class="form-control">
       </div>
-      <select id="type" class="form-control">
-        <option id="multiply" value="multiply">*</option>
-        <option id="divide" value="divide">/</option>
-        <option id="add" value="add">+</option>
-        <option id="subtract" value="subtract">-</option>
-      </select>
       <div class="form-group">
-        <label for="input2">number 2</label>
+        <label for="type">operator:</label>
+        <select id="type" class="form-control">
+          <option id="multiply" value="multiply">*</option>
+          <option id="divide" value="divide">/</option>
+          <option id="add" value="add">+</option>
+          <option id="subtract" value="subtract">-</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="input2">number 2:</label>
         <input type="text" name="input2" id="input2" class="form-control">
       </div>
       <button id="submitButton" type="button" name="button" class="btn">Calculate</button>
       <button id="clearButton" type="button" name="button" class="btn">Clear</button>
-      <h3>answer:</h3>
+      <h4>answer:</h4>
       <div id="outputDiv">
       </div>
     </div>
